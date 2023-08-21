@@ -18,7 +18,7 @@ public function showUpdateForm($token)
     }
 
     $statuses = Status::all();
-    dd($statuses)
+    dd($statuses);
     return view('update_profile_form', compact('user','statuses'));
 }
 
